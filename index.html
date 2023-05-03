@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tasks</h1>
+    <form id="task-form">
+      <label for="task-name">Task Name:</label>
+      <input type="text" id="task-name" name="task-name">
+      <label for="due-date">Due Date:</label>
+      <input type="time" id="due-date" name="due-date">
+      <button type="submit">Add Task</button>
+    </form>
+    <table id="task-table">
+      <thead>
+        <tr>
+          <th class="task-name">Task Name</th>
+          <th class="due-date">Due Date</th>
+        </tr>
+      </thead>
+    </table>
+</body>
+    <script src="script.js"></script>
+</html>

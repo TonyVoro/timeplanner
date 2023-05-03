@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--mainfont);
+    color: #7662e7;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #7662e7;
+    color: white;
+    border-radius: 25px;
+    font-family: var(--mainfont);
+  }
+
+  input[type=text] {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button[type=submit] {
+    padding:5px 15px; 
+    background:#7662e7; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-family: var(--mainfont);
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  label, button {
+    font-family: var(--mainfont);
+  }
+
+  :root {
+    --mainfont: "Segoe UI",Arial,sans-serif;
+  }
